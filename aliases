@@ -2,3 +2,6 @@
 alias l='ls'
 alias ll='ls -lh'
 alias lh='ls -Alh'
+
+# git
+alias g='git'
