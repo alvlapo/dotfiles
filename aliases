@@ -2,6 +2,7 @@
 alias l='ls'
 alias ll='ls -lh'
 alias lh='ls -Alh'
+alias cdc='cd ~/code'
 
 # git
 alias g='git'
