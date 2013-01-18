@@ -1,2 +1,6 @@
 log/*.log
 db/*.sqlite3
+
+*.sublime-project
+*.sublime-workspace
+~*
