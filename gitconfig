@@ -2,3 +2,5 @@
 	st = status
 	co = checkout
 	br = branch
+	lg = log
+	cm = commit -m 
