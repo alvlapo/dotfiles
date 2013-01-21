@@ -4,5 +4,7 @@ alias ll='ls -lh'
 alias lh='ls -Alh'
 alias cdc='cd ~/code'
 
+mcd(){ mkdir $1; cd $1 }
+
 # git
 alias g='git'
