@@ -2,7 +2,15 @@
 
 autoload -Uz promptinit
 promptinit
-prompt adam1
+# prompt adam1
+
+git_prompt(){
+  temp=`git symbolic-ref HEAD 2>/dev/null | cut -d / -f3`
+  if [ "$temp" != "" ]; then; echo "%B$temp%b:"; fi
+}
+
+setopt prompt_subst
+export PROMPT='[$(git_prompt)%~] '
 
 # aliases
 if [ -e "$HOME/.aliases" ]; then
